@@ -1,4 +1,4 @@
-<CrescentLinkUpdate>
+<CrescentLinkUpdates>
   <update appID="{C4BEFC0D-937A-4CFB-8485-2CC30D2E9E6D}">
     <version>5.0.0.28224</version>
     <url>https://github.com/Geograph-Technologies/crescentlink-resources/blob/master/desktop/software/CrescentLinkDesktop_5.0.0.28224.exe</url>
@@ -46,4 +46,4 @@ Project Planner
 * Updated the sheet export to sort operation headers in the tally grid ascending by operation number. (#1282)
 * Updated the PDF export to better handle rasterization and to disable font smoothing for better compatibility with Windows 10 ClearType. (#1295)</description>
   </update>
-</CrescentLinkUpdate>
+</CrescentLinkUpdates>
