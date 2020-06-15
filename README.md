@@ -1,4 +1,4 @@
-# Release v5.0.0 build(28224)
+# Release v5.0.0 build(27534)
 In this release, licensing has been changed from computer based to user based allowing users to sign in to CrescentLink with a pre-assigned GEOGRAPH account. The CrescentLink code base now targets .Net 4.7.2 (461808), and Project Planner and Network Manager extensions have been merged into one extension named CrescentLink. 
 
 ## Software Compatibility
@@ -6,8 +6,9 @@ In this release, licensing has been changed from computer based to user based al
 - The .NET Framework v4.7.2 is required.
 
 ## Network Manager
+- Fixed an issue where a layer with a broken data source could cause CrescentLink to stop looking for layers after that layer in the TOC when searching for the workspace.
 - Fixed an issue in coax design power calculations where power on the main output of a splitter would sometimes not be calculated if the power was fed from a child branch of the splitter.
-- Fixed an issue with branches on actives where BRANCH ports continued to use the main output value rather than the auxilary output values.
+- Fixed an issue with branches on actives where BRANCH ports continued to use the main output value rather than the auxiliary output values.
 - Updated Coax Tap calculations to give the tap score the highest priority, then the tap value next.
 - Updated coax cache for better management across the system when various events occur.
 - Fixed a bug that prevented specification settings from updating in a design when the active coax design profile was changed, not allowing the new specifications under the selected profile to be used in place of the old profile settings.
